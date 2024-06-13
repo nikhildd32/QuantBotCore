@@ -66,10 +66,10 @@ The request body should be in the following format:
 
 ```json
 {
-    "data": {
-        "text": "Hello, QuantumBot!",
-        "userId": "user123"
-    }
+  "message": {
+    "text": "Hello, this is the text message",
+    "userId": "chats123"
+  }
 }
 ```
 
