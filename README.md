@@ -1,6 +1,5 @@
-Sure, here's a revamped version that can serve as a GitHub repository README file:
 
-# QuantumBotCore
+# QuantBotCore
 
 QuantumBotCore is a scalable backend solution for chat applications, leveraging Firebase's real-time capabilities and Google Cloud Functions. It provides an efficient way to manage and handle chat messages, ensuring smooth and secure communication between users.
 
