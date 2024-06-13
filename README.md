@@ -3,12 +3,6 @@
 
 QuantumBotCore is a scalable backend solution for chat applications, leveraging Firebase's real-time capabilities and Google Cloud Functions. It provides an efficient way to manage and handle chat messages, ensuring smooth and secure communication between users.
 
-## Features
-
-- Real-time chat message processing and storage
-- Secure and scalable backend infrastructure
-- Seamless integration with Firebase and Google Cloud Functions
-- Easy-to-use API for adding new chat messages
 
 ## Getting Started
 
@@ -19,21 +13,14 @@ QuantumBotCore is a scalable backend solution for chat applications, leveraging 
 
 ### Installation
 
-1. Clone the repository:
+
+1. Install dependencies:
 
 ```bash
-git clone https://github.com/YanbingChen/quantumbot_onboarding.git
-cd quantumbot_onboarding
+npm install -g firebase-tools
 ```
 
-2. Install dependencies:
-
-```bash
-cd functions
-npm install
-```
-
-3. Set up Firebase project:
+2. Set up the Firebase project:
 
 ```bash
 firebase login
@@ -77,19 +64,6 @@ Set the `Content-Type` header to `application/json`.
 
 The function will add the message to the Firestore database and return a success response.
 
-## Contributing
-
-Contributions are welcome! Please follow the standard GitHub workflow:
-
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Commit your changes
-4. Push to the branch
-5. Submit a pull request
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
